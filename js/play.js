@@ -22,6 +22,7 @@ function createTicTacToeGrid(gridValue) {
         const col = i % size;
 
         const cell = document.createElement("div");
+
         cell.classList.add("cell");
         cell.style.border = "2px solid #ccc";
         cell.style.width = "70px";

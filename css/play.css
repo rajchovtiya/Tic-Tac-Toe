@@ -160,6 +160,7 @@
     text-decoration: none;
     font-size: 8.5rem;
 }
+
 .WINNER2,
 .win-symbol2 {
     text-align: center;
@@ -175,4 +176,61 @@
     margin-top: 3%;
     text-decoration: none;
     font-size: 8.5rem;
+}
+
+.border24,
+.border25 {
+    height: 0.20rem;
+    width: 15%;
+    background-color: #2718ff;
+}
+
+.border26,
+.border27 {
+    height: 40%;
+    width: 0.20rem;
+    background-color: #2718ff;
+}
+
+
+.border24 {
+    top: 0;
+    left: 0;
+    /* background: linear-gradient(1800deg, transparent, #32ff7e); */
+}
+
+.border25 {
+    bottom: 0;
+    right: 0;
+    /* background: linear-gradient(90deg, transparent, #32ff7e); */
+}
+
+.border26 {
+    left: 0;
+    top: 0;
+    /* background: linear-gradient(280deg, transparent, #32ff7e); */
+}
+
+.border27 {
+    right: 0;
+    bottom: 0;
+    /* background: linear-gradient(280deg, transparent, #32ff7e); */
+}
+.palybutn2{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    padding: 3px 25px;
+}
+
+.Restart {
+    background-color: transparent;
+    transition: none;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    padding: 1.2rem 2rem;
+    cursor: pointer;
+    color: #0b07f5;
 }

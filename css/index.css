@@ -8,6 +8,12 @@
 body {
     min-height: 100vh;
     background: rgb(16 17 21);
+    overflow-x: hidden;
+}
+
+.main {
+    overflow: hidden;
+    min-height: 100vh;
 }
 
 a {

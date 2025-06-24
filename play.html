@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>play</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/Selection.css">
+    <link rel="stylesheet" href="css/play.css">
+
+</head>
+
+<body>
+    <section class="main_contener">
+        <div class="Covaer_bg"></div>
+        <section class="win_main">
+            <div class="player-name">
+                <div class="p1-detail">
+                    <div class="p1-symbol">O</div>
+                    <div class="p1-name">Player1</div>
+                </div>
+                <div class="win">
+                    <p>0</p>
+                    <p>:</p>
+                    <p>0</p>
+                </div>
+                <div class="p2-detail">
+                    <div class="p2-symbol">X</div>
+                    <div class="p2-name">Player2</div>
+                </div>
+
+            </div>
+            <div class="palyheading">
+                <h2 class="heading">aligned symbol : <span class="symblo">3</span></h2>
+            </div>
+            <div>
+                <div id="game-board" class="mt-8 grid justify-center "></div>
+
+            </div>
+
+        </section>
+        <div class="Back_options palybutn">
+            <div class="game_button_border hoverButton ">
+                <span class="border10 border"></span>
+                <span class="border11 border "></span>
+                <span class="border12 border "></span>
+                <span class="border13 border "></span>
+                <button class="Back  BA_OP">Back</button>
+            </div>
+            <div class="game_button_border hoverButton ">
+                <span class="border10 border"></span>
+                <span class="border11 border "></span>
+                <span class="border12 border "></span>
+                <span class="border13 border "></span>
+                <a href="play.html">
+                    <button class="Back  BA_OP">Restart</button>
+                </a>
+            </div>
+
+            <div class="game_button_border hoverButton ">
+                <span class="border10 border "></span>
+                <span class="border11 border "></span>
+                <span class="border12 border "></span>
+                <span class="border13 border "></span>
+                <button class="Options BA_OP ">Options</button>
+
+            </div>
+
+
+        </div>
+        <section class="win_main2">
+            <div class="winershow">
+                <h1 class="WINNER">WINNER</h1>
+                <h1 class="win-symbol">O</h1>
+                <!-- <div class="Back_options palybutn">
+                    <div class="game_button_border hoverButton ">
+                        <span class="border10 border"></span>
+                        <span class="border11 border "></span>
+                        <span class="border12 border "></span>
+                        <span class="border13 border "></span>
+                        <button class="Back  BA_OP">Restart</button>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/play.js"></script>
+</body>
+
+</html>

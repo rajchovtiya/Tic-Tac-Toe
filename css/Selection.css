@@ -1,0 +1,152 @@
+.Selection_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.heading {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 100;
+    color: #32ff7e;
+    border-bottom: 0.3rem solid #32ff7e;
+    border-radius: 0.4rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.grid_selection {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+    width: 100%;
+    margin-top: 3%;
+    transition: all 0.75s;
+
+}
+
+.grid_text {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    font-size: 0.3rem;
+}
+
+.dropdown-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: 0px 0rem 0.5rem #4646c5;
+    border-radius: 5px;
+    color: white;
+    height: 2rem;
+    width: 8rem;
+    padding: 1px 5px;
+    border: 1px solid white;
+}
+
+.select-text {
+    font-size: 0.9rem;
+}
+
+.icon img {
+    filter: contrast(0.5);
+    max-width: 20px;
+}
+
+.selectionOpsn {
+    background-color: rgba(0, 0, 0, 0.95);
+    padding: 1px 6px 10px;
+    position: absolute;
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    visibility: hidden;
+    z-index: 600;
+    overflow-y: auto;
+    max-height: 230px;
+
+}
+
+.custamOPsan,
+.custamOPsanSymbols {
+    font-size: 1rem;
+    color: white;
+    margin-top: 0.9rem;
+}
+
+.selectionOpsn {
+    max-height: 230px;
+    overflow-y: auto;
+    visibility: hidden;
+    transition: height 0.3s ease, visibility 0.2s ease;
+}
+
+.hidden {
+    display: none;
+}
+
+.seconpage {
+    margin-top: 6%;
+}
+
+.border20,
+.border21 {
+    height: 0.20rem;
+    width: 15%;
+    background-color: #fbff18;
+}
+
+.border22,
+.border23 {
+    height: 40%;
+    width: 0.20rem;
+    background-color: #fbff18;
+}
+
+
+.border20 {
+    top: 0;
+    left: 0;
+    /* background: linear-gradient(1800deg, transparent, #32ff7e); */
+}
+
+.border21 {
+    bottom: 0;
+    right: 0;
+    /* background: linear-gradient(90deg, transparent, #32ff7e); */
+}
+
+.border22 {
+    left: 0;
+    top: 0;
+    /* background: linear-gradient(280deg, transparent, #32ff7e); */
+}
+
+.border23 {
+    right: 0;
+    bottom: 0;
+    /* background: linear-gradient(280deg, transparent, #32ff7e); */
+}
+.Play{
+    background-color: transparent;
+    transition: none;
+    border: none;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    padding: 1.3rem 5rem;
+    cursor: pointer;
+    color: #fbff18;
+}

@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: rgb(16 17 21);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.row {
+    position: absolute;
+    background-color: rgba(35, 0, 236, 0.925);
+
+}
+
+.row1,
+.row2 {
+    height: 0.20rem;
+    width: 100%;
+}
+
+.row3,
+.row4 {
+    height: 100%;
+    width: 0.20rem;
+}
+
+
+
+.row1 {
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, transparent, #ff5050);
+}
+
+.row2 {
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(280deg, transparent, #ff5050);
+}
+
+.row3 {
+    left: 0;
+    top: 0;
+    background: linear-gradient(280deg, transparent, #ff5050);
+}
+
+.row4 {
+    right: 0;
+    top: 0;
+    background: linear-gradient(280deg, transparent, #ff5050);
+}
+
+
+
+.game_buttons {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+    margin-top: 7%;
+}
+
+.game_button_border,
+.game_button_borders {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.game_button_borders {
+    margin-top: 15%;
+
+}
+
+.border,
+.border_second {
+    position: absolute;
+}
+
+.Single_button {
+    color: #32ff7e;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    padding: 2rem 5.6rem;
+    cursor: pointer;
+    /* border: 2px solid #32ff7e; */
+    transition: 0.3s;
+
+    &:hover {
+        background-color: #32ff7e;
+        color: #000000;
+    }
+
+}
+
+.border1,
+.border2 {
+    height: 0.20rem;
+    width: 100%;
+}
+
+.border3,
+.border4 {
+    height: 100%;
+    width: 0.20rem;
+}
+
+.border1 {
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, transparent, #32ff7e);
+}
+
+.border2 {
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg, transparent, #32ff7e);
+}
+
+.border3 {
+    left: 0;
+    top: 0;
+    background: linear-gradient(280deg, transparent, #32ff7e);
+}
+
+.border4 {
+    right: 0;
+    top: 0;
+    background: linear-gradient(280deg, transparent, #32ff7e);
+}
+
+.Second_Button_text {
+    color: #18dcff;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    padding: 2rem 5.6rem;
+    cursor: pointer;
+    width: 100%;
+    /* border: 2px solid #32ff7e; */
+    transition: 0.3s;
+
+    &:hover {
+        background-color: #18dcff;
+        color: #000000;
+    }
+
+
+}
+
+.border5,
+.border6 {
+    height: 0.20rem;
+    width: 100%;
+}
+
+.border7,
+.border8 {
+    height: 100%;
+    width: 0.20rem;
+}
+
+.border5 {
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, transparent, #18dcff);
+    animation: row1 1.2s linear infinite;
+}
+
+.border6 {
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg, transparent, #18dcff);
+    animation: row2 1s linear infinite;
+}
+
+.border7 {
+    left: 0;
+    top: 0;
+    background: linear-gradient(280deg, transparent, #18dcff);
+    animation: row4 0.8s linear infinite;
+}
+
+.border8 {
+    right: 0;
+    top: 0;
+    background: linear-gradient(280deg, transparent, #18dcff);
+    animation: row3 1s linear infinite;
+}
+
+.Back_options {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 8%;
+}
+
+.BA_OP {
+    color: #32ff7e;
+    background-color: transparent;
+    transition: none;
+    border: none;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    padding: 1.3rem 5rem;
+    cursor: pointer;
+
+}
+
+.border10,
+.border11 {
+    height: 0.20rem;
+    width: 15%;
+    background-color: #32ff7e;
+}
+
+.border12,
+.border13 {
+    height: 40%;
+    width: 0.20rem;
+    background-color: #32ff7e;
+}
+
+
+.border10 {
+    top: 0;
+    left: 0;
+    /* background: linear-gradient(1800deg, transparent, #32ff7e); */
+}
+
+.border11 {
+    bottom: 0;
+    right: 0;
+    /* background: linear-gradient(90deg, transparent, #32ff7e); */
+}
+
+.border12 {
+    left: 0;
+    top: 0;
+    /* background: linear-gradient(280deg, transparent, #32ff7e); */
+}
+
+.border13 {
+    right: 0;
+    bottom: 0;
+    /* background: linear-gradient(280deg, transparent, #32ff7e); */
+}

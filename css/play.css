@@ -1,0 +1,178 @@
+.main_contener {
+    position: relative;
+    min-height: 100vh;
+}
+
+.win_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.player-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+.p1-detail,
+.p2-detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.p1-symbol {
+    text-shadow: 0 0 0.1rem #001aff, 0 0 0.3rem #001aff, 0 0 0.6rem #001aff, 0 0 0.8rem #001aff, 0 0 1rem #001aff;
+}
+
+.p1-symbol,
+.p2-symbol {
+    font-size: 3rem;
+    color: white;
+}
+
+.p1-name {
+    color: #6473ff;
+}
+
+.p1-name,
+.p2-name {
+    font-size: 2rem;
+    margin-top: 0.1rem;
+    text-align: center;
+}
+
+.win {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    padding-bottom: 0.5rem;
+    color: white;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+}
+
+.p2-symbol {
+    text-shadow: 0 0 0.1rem red, 0 0 0.4rem red, 0 0 0.8rem red;
+}
+
+.p2-name {
+    color: #ff6262;
+}
+
+.palyheading {
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#game-board {
+    display: grid;
+    margin-top: 13%;
+}
+
+.cell {
+    color: white;
+}
+
+.palybutn {
+    margin-top: 4%;
+}
+
+.Covaer_bg {
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(77 78 81);
+    opacity: 0.5;
+    z-index: 40;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 0;
+}
+
+.win_main2 {
+    position: absolute;
+    top: 0%;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 0;
+    z-index: 99999;
+
+}
+
+.winershow {
+    position: absolute;
+    height: 400px;
+    width: 420px;
+    top: 14%;
+    z-index: 88888;
+    border-radius: 25px;
+    box-shadow: 0 0 1rem #001aff, inset 0 0 .2rem #001aff;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.winershowX2 {
+    position: absolute;
+    height: 400px;
+    width: 420px;
+    top: 14%;
+    z-index: 88888;
+    border-radius: 25px;
+    box-shadow: 0 0 1rem #fa0216, inset 0 0 .2rem #ff0505;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.WINNER,
+.win-symbol {
+    text-align: center;
+    font-size: 3.2rem;
+    position: relative;
+    text-shadow: 0 0 0.1rem #001aff, 0 0 0.3rem #001aff, 0 0 0.6rem #001aff, 0 0 0.8rem #001aff, 0 0 1rem #001aff;
+    color: white;
+    text-decoration: underline;
+    margin-top: 15%;
+}
+
+.win-symbol {
+    margin-top: 3%;
+    text-decoration: none;
+    font-size: 8.5rem;
+}
+.WINNER2,
+.win-symbol2 {
+    text-align: center;
+    font-size: 3.2rem;
+    position: relative;
+    text-shadow: 0 0 0.1rem #ff0000, 0 0 0.3rem #ff0022, 0 0 0.6rem #ff0000, 0 0 0.8rem #001aff, 0 0 1rem #001aff;
+    color: white;
+    text-decoration: underline;
+    margin-top: 15%;
+}
+
+.win-symbol2 {
+    margin-top: 3%;
+    text-decoration: none;
+    font-size: 8.5rem;
+}
